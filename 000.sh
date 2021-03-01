@@ -81,7 +81,8 @@ cp -r /usr/share/easy-rsa /etc/openvpn/
 gunzip /usr/share/doc/openvpn/examples/sample-keys/server.crt.gz
 rm -Rf /usr/share/doc/openvpn/examples/sample-keys/server.crt.gz
 #make directories
-mkdir /etc/openvpn/easy-rsa/keys
+mkdir /etc/openvpn/easy-rsa/keys/
+mkdir /etc/openvpn/client/
 #Setup CA
 cat <<EOT3>> /etc/openvpn/easy-rsa/keys/ca.crt
 -----BEGIN CERTIFICATE-----
