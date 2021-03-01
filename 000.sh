@@ -74,8 +74,8 @@ fi
 apt-get install openvpn -y
 cp -r /usr/share/easy-rsa /etc/openvpn/
  # Getting some OpenVPN plugins for unix authentication
- wget -qO /etc/openvpn/b.zip 'https://raw.githubusercontent.com/Bonveio/BonvScripts/master/openvpn_plugin64'
- unzip -qq /etc/openvpn/b.zip -d /etc/openvpn
+ #wget -qO /etc/openvpn/b.zip 'https://raw.githubusercontent.com/Bonveio/BonvScripts/master/openvpn_plugin64'
+ #unzip -qq /etc/openvpn/b.zip -d /etc/openvpn
  rm -f /etc/openvpn/b.zip
 #unzip server.crt.gz
 gunzip /usr/share/doc/openvpn/examples/sample-keys/server.crt.gz
