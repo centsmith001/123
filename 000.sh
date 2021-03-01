@@ -71,7 +71,7 @@ fi
  rm -rf /etc/openvpn/*
 
 #Install Openvpn
-apt-get install openvpn -y
+#apt-get install openvpn -y
 cp -r /usr/share/easy-rsa /etc/openvpn/
  # Getting some OpenVPN plugins for unix authentication
  #wget -qO /etc/openvpn/b.zip 'https://raw.githubusercontent.com/Bonveio/BonvScripts/master/openvpn_plugin64'
